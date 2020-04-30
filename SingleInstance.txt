@@ -1,0 +1,138 @@
+{
+#		'AmiLaunchIndex': 0,
+*		'ImageId': 'ami-09ef280df1a6a5330',
+*		'InstanceId': 'i-07b89f61ff5df3af3',
+*		'InstanceType': 't2.xlarge',
+#		'KeyName': 'AccessApps.net',
+#		'LaunchTime': datetime.datetime(2020, 2, 11, 17, 51, 14, tzinfo = tzutc()),
+#		'Monitoring':
+		{
+#			'State': 'disabled'
+		},
+#		'Placement':
+		{
+*			'AvailabilityZone': 'us-east-1a',
+-			'GroupName': '',
+-			'Tenancy': 'default'
+		},
+*		'Platform': 'windows',
+		'PrivateDnsName': 'ip-10-1-5-119.ec2.internal',
+*		'PrivateIpAddress': '10.1.5.119',
+		'ProductCodes': [],
+		'PublicDnsName': 'ec2-3-91-241-170.compute-1.amazonaws.com',
+*		'PublicIpAddress': '3.91.241.170',
+		'State':
+		{
+			'Code': 16,
+*			'Name': 'running'
+		},
+		'StateTransitionReason': '',
+*		'SubnetId': 'subnet-056c8a25a448b0abc',
+*		'VpcId': 'vpc-09ef1053a4875c37d',
+		'Architecture': 'x86_64',
+		'BlockDeviceMappings': [
+		{
+			'DeviceName': '/dev/sda1',
+			'Ebs':
+			{
+				'AttachTime': datetime.datetime(2019, 7, 13, 19, 19, 6, tzinfo = tzutc()),
+				'DeleteOnTermination': True,
+				'Status': 'attached',
+*				'VolumeId': 'vol-04c36c95fc6d976ba'
+			}
+		}],
+		'ClientToken': '',
+		'EbsOptimized': False,
+		'EnaSupport': True,
+		'Hypervisor': 'xen',
+		'IamInstanceProfile':
+		{
+*			'Arn': 'arn:aws:iam::299482937955:instance-profile/Octank-EC2Admin',
+			'Id': 'AIPAULOUS7JR2Z2BIPUVF'
+		},
+		'NetworkInterfaces': [
+		{
+			'Association':
+			{
+				'IpOwnerId': 'amazon',
+				'PublicDnsName': 'ec2-3-91-241-170.compute-1.amazonaws.com',
+				'PublicIp': '3.91.241.170'
+			},
+			'Attachment':
+			{
+				'AttachTime': datetime.datetime(2019, 7, 13, 19, 19, 6, tzinfo = tzutc()),
+				'AttachmentId': 'eni-attach-07c2dbdd54b143189',
+				'DeleteOnTermination': True,
+				'DeviceIndex': 0,
+				'Status': 'attached'
+			},
+			'Description': 'Primary network interface',
+			'Groups': [
+			{
+				'GroupName': 'default',
+				'GroupId': 'sg-0984ff1f2c771f0e4'
+			}],
+			'Ipv6Addresses': [],
+			'MacAddress': '12:88:46:b7:1f:0e',
+			'NetworkInterfaceId': 'eni-04459e40c1e1a341e',
+			'OwnerId': '299482937955',
+			'PrivateDnsName': 'ip-10-1-5-119.ec2.internal',
+			'PrivateIpAddress': '10.1.5.119',
+			'PrivateIpAddresses': [
+			{
+				'Association':
+				{
+					'IpOwnerId': 'amazon',
+					'PublicDnsName': 'ec2-3-91-241-170.compute-1.amazonaws.com',
+					'PublicIp': '3.91.241.170'
+				},
+				'Primary': True,
+				'PrivateDnsName': 'ip-10-1-5-119.ec2.internal',
+*				'PrivateIpAddress': '10.1.5.119'
+			},
+			{
+				'Primary': False,
+				'PrivateDnsName': 'ip-10-1-5-120.ec2.internal',
+*				'PrivateIpAddress': '10.1.5.120'
+			}],
+			'SourceDestCheck': True,
+			'Status': 'in-use',
+*			'SubnetId': 'subnet-056c8a25a448b0abc',
+*			'VpcId': 'vpc-09ef1053a4875c37d',
+			'InterfaceType': 'interface'
+		}],
+		'RootDeviceName': '/dev/sda1',
+		'RootDeviceType': 'ebs',
+*		'SecurityGroups': [
+		{
+*			'GroupName': 'default',
+*			'GroupId': 'sg-0984ff1f2c771f0e4'
+		}],
+		'SourceDestCheck': True,
+		'Tags': [
+		{
+*			'Key': 'Name',
+*			'Value': 'BastionHost'
+		}],
+		'VirtualizationType': 'hvm',
+		'CpuOptions':
+		{
+			'CoreCount': 4,
+			'ThreadsPerCore': 1
+		},
+		'CapacityReservationSpecification':
+		{
+			'CapacityReservationPreference': 'open'
+		},
+		'HibernationOptions':
+		{
+			'Configured': False
+		},
+		'MetadataOptions':
+		{
+			'State': 'applied',
+			'HttpTokens': 'optional',
+			'HttpPutResponseHopLimit': 1,
+			'HttpEndpoint': 'enabled'
+		}
+	}

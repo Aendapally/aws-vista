@@ -1,0 +1,2 @@
+        #response=client.describe_instances().get('Reservations',{}).get('Instances')
+        #response=client.describe_instances().get('Reservations', {'Instances'})
