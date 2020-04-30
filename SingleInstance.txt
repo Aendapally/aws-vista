@@ -1,15 +1,15 @@
 {
-#		'AmiLaunchIndex': 0,
+		'AmiLaunchIndex': 0,
 *		'ImageId': 'ami-09ef280df1a6a5330',
 *		'InstanceId': 'i-07b89f61ff5df3af3',
 *		'InstanceType': 't2.xlarge',
-#		'KeyName': 'AccessApps.net',
-#		'LaunchTime': datetime.datetime(2020, 2, 11, 17, 51, 14, tzinfo = tzutc()),
-#		'Monitoring':
+		'KeyName': 'AccessApps.net',
+		'LaunchTime': datetime.datetime(2020, 2, 11, 17, 51, 14, tzinfo = tzutc()),
+		'Monitoring':
 		{
-#			'State': 'disabled'
+			'State': 'disabled'
 		},
-#		'Placement':
+		'Placement':
 		{
 *			'AvailabilityZone': 'us-east-1a',
 -			'GroupName': '',
